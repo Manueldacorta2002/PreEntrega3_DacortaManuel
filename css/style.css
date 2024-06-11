@@ -1,0 +1,492 @@
+/* Reset de márgenes y rellenos */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo del cuerpo de la página */
+body {
+  background-color: grey; 
+}
+
+/* Estilo del encabezado */
+header {
+  background-color: #333; 
+  padding: 20px 0; 
+}
+
+header .bg-light {
+  background-color: #333 !important;
+  color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(255, 255, 255) !important;
+}
+
+/* Estilo del contenedor de cuadrícula */
+.grid-container {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  max-width: 1200px; 
+  margin: 0 auto; 
+  padding: 0 20px; 
+}
+
+/* Estilo del logo */
+.Logo {
+  width: 150px; 
+  height: auto; 
+}
+
+/* Estilo de la lista desordenada dentro del elemento de navegación */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; 
+  justify-content: flex-end; /
+}
+
+/* Estilo de cada ítem de la lista dentro del elemento de navegación */
+nav ul li {
+  margin-left: 20px; 
+}
+
+/* Estilo de los enlaces dentro de la lista de navegación */
+nav ul li a {
+  color: #fff; 
+  text-decoration: none; 
+  font-size: 16px; 
+  transition: color 0.3s; 
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,%20255,%20255,%201)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-light .navbar-toggler {
+  border-color: #fff;
+}
+/* Estilo de los enlaces de navegación al pasar el cursor sobre ellos */
+nav ul li a:hover {
+  color: #04f5bf; 
+}
+
+/* Estilo para la pestaña activa */
+header nav ul li a.active {
+  color: #04f5bf; 
+}
+
+/* Estilo de los enlaces en general */
+a { 
+  text-transform: uppercase; 
+  text-decoration: none;
+  font-weight: bold; 
+  color: aliceblue; 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+/* Estilo del contenido principal */
+main { 
+  margin: 20px; 
+  padding: 20px; 
+  text-align: center; 
+}
+
+/* Estilo de los encabezados */
+h1, h2 { 
+  text-decoration: underline; 
+  margin: 20px 0; 
+  text-align: center; 
+  text-decoration: none; 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Estilo del encabezado h1 */
+h1 {
+  color: #04f5bf; 
+}
+
+/* Estilo del encabezado h2 */
+h2 {
+  color: #fff; 
+}
+
+/* Estilo del pie de página */
+footer { 
+  padding: 20px; 
+  margin: 20px; 
+  text-align: center; 
+  border-top: 1px solid floralwhite; 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+/* Estilo de las redes sociales */
+.redes-sociales {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  margin-top: 20px; 
+}
+
+/* Estilo de los enlaces de redes sociales */
+.redes-sociales a {
+  display: inline-block; 
+  margin: 0 10px; 
+  transition: transform 0.3s, filter 0.3s; 
+}
+
+/* Estilo de los íconos de redes sociales al pasar el cursor sobre ellos */
+.redes-sociales a:hover {
+  transform: scale(1.2); 
+  filter: brightness(1.2); 
+}
+
+/* Estilo del título debajo de las redes sociales */
+.redes-sociales h3 {
+  margin-top: 10px; 
+  text-align: center; 
+  color: black; 
+  font-size: 14px; 
+}
+
+/* Estilo del formulario */
+form { 
+  margin-top: 20px; 
+}
+
+/* Estilo de las etiquetas del formulario */
+label { 
+  display: block; 
+  font-weight: bold; 
+  margin-bottom: 5px; 
+  color: #333; 
+}
+
+/* Estilo del área de texto y los campos de texto del formulario */
+textarea, input[type="text"] { 
+  width: 100%; 
+  padding: 10px; 
+  border: 2px solid #ccc; 
+  font-size: 16px; 
+  border-radius: 5px; 
+  margin-bottom: 10px; 
+}
+
+/* Estilo de los botones */
+.botones { 
+  color: #ccc; 
+  background-color: #333; 
+  border: none; 
+  padding: 10px 20px; 
+  border-radius: 5px; 
+  font-size: 18px; 
+  cursor: pointer; 
+  margin-top: 10px; 
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ajusta la altura según tus necesidades */
+  background-image: url('../Fotos/Fondo_inicio.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+/* Estilo del botón animado */
+.animated-button {
+  display: inline-block; 
+  padding: 10px 20px; 
+  font-size: 18px; 
+  color: #fff; 
+  background-color: #04f5bf; 
+  border-radius: 5px; 
+  border: none; 
+  cursor: pointer; 
+  transition: transform 0.2s, box-shadow 0.2s; 
+  text-decoration: none ;
+}
+
+
+/* Estilo del botón animado al pasar el cursor sobre él */
+.animated-button:hover {
+  transform: scale(1.1); 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+  text-decoration: none;
+}
+
+
+/* Estilo del contenedor flexible para las imágenes */
+.contenedor-flex {
+  display: flex; 
+  justify-content: space-around; 
+  align-items: center; 
+}
+
+/* Estilo de las imágenes dentro del contenedor flexible */
+.imagen {
+  flex: 1; 
+  margin: 0 10px; 
+}
+
+/* Estilo de las imágenes dentro de los contenedores */
+.imagen img {
+  max-width: 100%; 
+  height: auto; 
+}
+
+/* Estilo del botón genérico */
+button {
+  background-color: #fff; 
+  border: 1px solid; 
+  color: #333; 
+  padding: 15px 32px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 16px; 
+  margin: 4px 2px; 
+  cursor: pointer; 
+  border-radius: 10px; 
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s; 
+}
+
+/* Estilo del botón al pasar el cursor sobre él */
+button:hover {
+  background-color: #333; 
+  color: #fff; 
+  border-color: #333; 
+}
+
+/* Estilo del botón al enfocarse */
+button:focus {
+  outline: none; 
+  box-shadow: 0 0 0 2px #333; 
+}
+
+/* Estilo del contenedor principal con rejilla */
+.grid-container {
+  display: grid; 
+  grid-template-columns: 25% 75%; 
+  align-items: center; 
+}
+
+/* Estilo del título h1 dentro de .Titulo_Nosotros */
+.Titulo_Nosotros h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  font-size: 24px; 
+  color: #04f5bf; 
+}
+
+/* Estilo del subtítulo h2 dentro de .Titulo_Nosotros */
+.Titulo_Nosotros h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  font-size: 20px; 
+}
+
+/* Estilo del subtítulo h3 dentro de .columna_nosotros */
+.columna_nosotros h3 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  font-size: 18px; 
+  color: white; 
+}
+
+/* Estilo de los íconos dentro de .columna_nosotros */
+.columna_nosotros .iconify {
+  font-size: 24px; 
+  color: white; /* Cambia el color de los iconos a blanco */
+}
+/* Estilo del contenedor de columnas .columnas_Nosotros */
+.columnas_Nosotros {
+display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+/* Estilo de cada columna individual .columna_nosotros */
+.columna_nosotros {
+  flex: 1; 
+  padding: 20px; 
+  border: none; 
+}
+
+/* Estilo del contenedor .nosotros-container */
+.nosotros-container {
+  text-align: center; 
+}
+
+/* Estilo de la descripción .descripcion_Nosotros */
+.descripcion_Nosotros {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  font-size: 15px; 
+  margin-top: 20px; 
+  color: #fff; 
+  padding-top: 5%;
+  font-weight: bold; /* Agrega negrita al texto */
+}
+/* Estilo del contenedor .contenedor */
+.contenedor {
+  display: flex; 
+  justify-content: space-between; 
+}
+
+/* Estilo de cada columna individual .columna */
+.columna {
+  display: flex; 
+  flex-direction: column; 
+}
+
+/* Estilo de los rieles .reel */
+.reel {
+  margin: 10px; 
+}
+
+/* Estilo del contenedor de servicios .container-Servicio */
+.container-Servicio {
+  display: flex; 
+}
+
+/* Estilo de cada columna individual .columna dentro de .container-Servicio */
+.columna {
+  flex: 1; 
+  padding: 20px; 
+  border: 1px solid #ccc; 
+  text-align: center; 
+}
+
+/* Estilo del título de servicios dentro del contenedor .container-Servicio */
+.container-Servicio .titulo_Servicios {
+  font-family: Arial, sans-serif; 
+  font-size: 16px; 
+  color: black; 
+  margin-right: 5px;
+}
+
+/* Estilo de la lista de servicios */
+.container-Servicio ul {
+  list-style-type: none; 
+  padding: 0; 
+}
+
+/* Estilo de cada elemento de la lista de servicios */
+.container-Servicio li {
+  font-family: Arial, sans-serif; 
+  font-size: 14px; 
+  color: white; 
+  padding: 5px 0; 
+}
+
+/* Estilo del último elemento de la lista de servicios */
+.container-Servicio li:last-child {
+  border-bottom: none; 
+}
+
+/* Estilo de la sección de contacto */
+.contact-section {
+  background-color: #f9f9f9; 
+  padding: 50px; 
+  border-radius: 10px; 
+  box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.5)
+}
+
+/* Estilo del título de la sección de contacto */
+.contact-section h1 {
+  color: #333; 
+}
+
+/* Estilo del subtítulo de la sección de contacto */
+.contact-section h2 {
+  color: #666; 
+}
+
+/* Estilo del formulario de contacto */
+.contact-form {
+  margin-top: 20px; 
+}
+
+/* Estilo de las etiquetas del formulario */
+.contact-form label {
+  display: block; 
+  margin-bottom: 10px; 
+  color: #555; 
+}
+
+/* Estilo del área de texto del formulario de contacto */
+.contact-form textarea {
+  width: 100%; 
+  padding: 10px; 
+  border: 1px solid grey; 
+  border-radius: 5px; 
+  resize: none; 
+}
+/* Estilo de los botones */
+.Botones {
+  background-color: grey; 
+  color: #fff; 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  margin-right: 10px; 
+}
+
+/* Estilo del botón al pasar el cursor sobre él */
+.Botones:hover {
+  background-color: #555; 
+}
+
+/* Estilos base para dispositivos de tamaño normal */
+.contenedor-flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.imagen img {
+  width: 100%;
+  height: auto;
+}
+
+/* Media query para dispositivos con un ancho máximo de 600px */
+@media screen and (max-width: 600px) {
+  .contenedor-flex {
+      flex-direction: column;
+      align-items: center;
+  }
+}
+
+@media (max-width: 600px) {
+  nav ul {
+      display: block;
+  }
+  .container-Servicio {
+      display: block;
+  }
+  .imagen {
+      padding-bottom: 20px;
+  }
+  .columnas_Nosotros {
+      flex-direction: column;
+  }
+  .columna_nosotros {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+  .columna_nosotros h3 {
+      font-size: 16px;
+  }
+  .descripcion_Nosotros {
+      font-size: 14px;
+  }
+  .Titulo_Nosotros h1 {
+      font-size: 20px;
+  }
+  .Titulo_Nosotros h2 {
+      font-size: 18px;
+  }
+  .columna_nosotros .iconify {
+      font-size: 20px;
+  }
+  .button-container {
+      height: 30vh;
+  }
+}

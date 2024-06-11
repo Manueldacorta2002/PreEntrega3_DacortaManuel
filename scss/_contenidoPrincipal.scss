@@ -1,0 +1,58 @@
+/* Estilo del contenido principal */
+@import "variables";
+
+main {
+    text-align: center;
+}
+
+/* Estilo de los encabezados */
+
+h1,
+h2 {
+    text-decoration: underline;
+    margin: 20px 0;
+    text-align: center;
+    text-decoration: none;
+    font-family: $primary-font;
+}
+
+/* Estilo del encabezado h1 */
+
+h1 {
+    color: $primary-color;
+}
+
+/* Estilo del encabezado h2 */
+
+h2 {
+    color: $secondary-color;
+}
+
+#clientes {
+    text-align: center;
+}
+
+.slider {
+    background-color: $tertiary-color;
+    display: flex;
+    justify-content: center;
+
+    /* Centrar horizontalmente */
+    overflow: hidden;
+    margin: 0 auto;
+    max-width: 100%;
+
+    figure {
+        margin: 0 10px;
+
+        /* Espacio entre los logos */
+    }
+
+    img {
+        max-width: 300px;
+
+        /* Ancho máximo de los logos */
+        height: auto;
+        vertical-align: middle;
+    }
+}

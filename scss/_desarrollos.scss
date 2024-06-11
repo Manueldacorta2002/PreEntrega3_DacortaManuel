@@ -1,0 +1,30 @@
+/* Estilo del contenedor .contenedor */
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Estilo de cada columna individual .columna */
+
+.columna {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilo de los rieles .reel */
+
+.reel {
+    margin: 10px;
+}
+/* Estilos base para dispositivos de tamaño normal */
+
+.contenedor-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagen img {
+    width: 480px;
+    height: 280px;
+}

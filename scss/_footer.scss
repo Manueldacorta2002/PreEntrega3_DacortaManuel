@@ -1,0 +1,43 @@
+/* Estilo del pie de página */
+@import "variables";
+
+footer {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border-top: 1px solid floralwhite;
+    font-family: $primary-font;
+}
+
+/* Estilo de las redes sociales */
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+    a {
+        display: inline-block;
+        margin: 0 10px;
+        transition: transform 0.3s, filter 0.3s;
+
+        &:hover {
+            transform: scale(1.2);
+            filter: brightness(1.2);
+        }
+    }
+
+    h3 {
+        margin-top: 10px;
+        text-align: center;
+        color: $tertiary-color;
+        font-size: 14px;
+    }
+}
+
+/* Estilo de los enlaces de redes sociales */
+
+/* Estilo de los íconos de redes sociales al pasar el cursor sobre ellos */
+
+/* Estilo del título debajo de las redes sociales */

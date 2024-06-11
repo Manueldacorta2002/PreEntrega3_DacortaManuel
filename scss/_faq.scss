@@ -1,0 +1,25 @@
+#faq {
+    margin-top: 50px;
+    padding: 10px;
+    border: 2px solid $tertiary-color;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+
+    h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        font-family: $primary-font;
+    }
+
+    p {
+        font-size: 12px; // Letra más chica
+        font-family: $primary-font;
+        text-align: center; // Centrar el texto
+    }
+}
+
+.answer {
+    display: none;
+}

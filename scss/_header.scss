@@ -1,0 +1,78 @@
+/* Estilo del encabezado */
+@import "variables";
+
+header {
+    background-color: $tertiary-color;
+    padding: 20px 0;
+
+    .bg-light {
+        background-color: $tertiary-color!important;
+        color: $secondary-color;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: flex-end;
+
+        li {
+            margin-left: 20px;
+
+            a {
+                color:$secondary-color;
+                text-decoration: none;
+                font-size: 16px;
+                transition: color 0.3s;
+
+                &:hover {
+                    color: $primary-color;
+                }
+
+                &.active {
+                    color: $primary-color;
+                }
+            }
+        }
+    }
+}
+
+/* Estilo del contenedor de cuadrícula */
+.grid-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Estilo del logo */
+.Logo {
+    width: 150px;
+    height: auto;
+}
+
+.navbar-light {
+    .navbar-nav .nav-link {
+        color: rgb(255, 255, 255) !important;
+    }
+
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,%20255,%20255,%201)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+
+    .navbar-toggler {
+        border-color: $secondary-color;
+    }
+}
+
+/* Estilo de los enlaces en general */
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: aliceblue;
+    font-family: $primary-font;
+}

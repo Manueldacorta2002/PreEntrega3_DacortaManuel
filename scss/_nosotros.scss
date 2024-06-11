@@ -1,0 +1,75 @@
+/* Estilo del botón genérico */
+@import "variables";
+
+button {
+    background-color: $secondary-color;
+    border: 1px solid;
+    color: $tertiary-color;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+
+    &:hover {
+        background-color: $tertiary-color;
+        color: $secondary-color;
+        border-color: $tertiary-color;
+    }
+
+    &:focus {
+        outline: none;
+        box-shadow: 0 0 0 2px $tertiary-color;
+    }
+}
+
+/* Estilo del botón al pasar el cursor sobre él */
+
+/* Estilo del botón al enfocarse */
+
+/* Estilo del contenedor principal con rejilla */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    align-items: center;
+}
+
+/* Estilo del contenedor de columnas .columnas_Nosotros */
+
+.columnas_Nosotros {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+/* Estilo de cada columna individual .columna_nosotros */
+
+.columna_nosotros {
+    flex: 1;
+    padding: 20px;
+    border: none;
+}
+
+/* Estilo del contenedor .nosotros-container */
+
+.nosotros-container {
+    text-align: center;
+}
+
+/* Estilo de la descripción .descripcion_Nosotros */
+
+.descripcion_Nosotros {
+    font-family: $primary-font;
+    font-size: 15px;
+    margin-top: 20px;
+    color: $secondary-color;
+    padding-top: 5%;
+    font-weight: bold;
+
+    /* Agrega negrita al texto */
+}

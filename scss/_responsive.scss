@@ -1,0 +1,132 @@
+/* Media query para dispositivos con un ancho máximo de 600px */
+@media screen and (max-width: 600px) {
+    .contenedor-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav ul,
+    .container-Servicio {
+        display: block;
+    }
+
+    .imagen {
+        padding-bottom: 20px;
+    }
+
+    .columnas_Nosotros {
+        flex-direction: column;
+    }
+
+    .columna_nosotros {
+        width: 100%;
+        margin-bottom: 20px;
+
+        h3 {
+            font-size: 16px;
+        }
+    }
+
+    .descripcion_Nosotros {
+        font-size: 14px;
+    }
+
+    .Titulo_Nosotros {
+        h1 {
+            font-size: 20px;
+        }
+
+        h2 {
+            font-size: 18px;
+        }
+    }
+
+    .columna_nosotros .iconify {
+        font-size: 20px;
+    }
+
+    .button-container {
+        height: 30vh;
+    }
+
+    .slider {
+        flex-direction: column;
+        gap: 5px;
+        justify-content: center;
+        figure img {
+            max-width: 150px;
+        }
+    }
+
+    .imagen img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Media query para dispositivos con un ancho de 601px a 1024px */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .contenedor-flex {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .container-Servicio {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .imagen {
+        padding-bottom: 10px;
+    }
+
+    .columnas_Nosotros {
+        flex-direction: row;
+    }
+
+    .columna_nosotros {
+        width: 48%;
+        margin-bottom: 10px;
+
+        h3 {
+            font-size: 18px;
+        }
+    }
+
+    .descripcion_Nosotros {
+        font-size: 16px;
+    }
+
+    .Titulo_Nosotros {
+        h1 {
+            font-size: 24px;
+        }
+
+        h2 {
+            font-size: 22px;
+        }
+    }
+
+    .columna_nosotros .iconify {
+        font-size: 24px;
+    }
+
+    .button-container {
+        height: 40vh;
+    }
+
+    .slider {
+        flex-direction: row;
+        gap: 10px;
+        justify-content: flex-start;
+        figure img {
+            max-width: 200px;
+        }
+    }
+}

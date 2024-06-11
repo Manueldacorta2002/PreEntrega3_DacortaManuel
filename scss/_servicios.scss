@@ -1,0 +1,48 @@
+@import "variables";
+/* Estilo del contenedor de servicios .container-Servicio */
+
+.container-Servicio {
+    display: flex;
+}
+
+/* Estilo de cada columna individual .columna dentro de .container-Servicio */
+
+.columna {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+/* Estilo del título de servicios dentro del contenedor .container-Servicio */
+
+.container-Servicio {
+    .titulo_Servicios {
+        font-family: $secondary-font;
+        font-size: 16px;
+        color: $tertiary-color;
+        margin-right: 5px;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    li {
+        font-family: $secondary-font;
+        font-size: 14px;
+        color: $secondary-color;
+        padding: 5px 0;
+
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+}
+
+/* Estilo de la lista de servicios */
+
+/* Estilo de cada elemento de la lista de servicios */
+
+/* Estilo del último elemento de la lista de servicios */

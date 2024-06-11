@@ -1,0 +1,16 @@
+
+
+@mixin input-style($border-color: grey) {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid $border-color;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+@mixin button-style($bg-color: $primary-color, $text-color: grey) {
+    color: $text-color;
+    background-color: $bg-color;
+    @extend %button-base;
+}
