@@ -512,7 +512,7 @@ h2 {
 }
 
 .slider {
-  background-color: #333;
+  background-color: black;
   display: flex;
   justify-content: center;
   /* Centrar horizontalmente */
